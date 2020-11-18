@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-family: 'Comic Neue', cursive;
+}
+h1 {
+    margin: 3%;
+    padding: 10px;
+    text-align: center;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+.container {
+    color: #fff;
+    text-align: center;
+    margin: 1%;
+}
+.container div {
+    width: 30%;
+    height: auto;
+    background: rgb(90, 119, 143);
+    box-shadow: 0px 3px 10px 2px rgb(109, 117, 124);
+    float: left;
+    margin: 1.665%;
+    border: 2px rgb(103, 105, 128) solid;
+}
+.container div h2 {
+    letter-spacing: 7px;
+    font-size: 30px;
+    float: right;
+    background-color: rgba(38, 6, 59, 0.63);
+    width: 50%;
+    padding: 10px;
+    margin: 0px;
+    border: 2px  rgb(103, 105, 128) dotted;
+    border-right: none;
+    border-top: none;
+}
+.container div p {
+    font-size: 20px;
+    padding: 20px;
+    clear: right;
+    line-height: 35px;
+} 
+footer {
+    clear: both;
+    margin: 3%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+@media (min-width:768px) and (max-width:991px) {
+    .container div {
+        width: 46%;
+        margin: 2%;
+    }
+    .container div:nth-child(3) {
+        width: 96%;
+    }
+    .container div:nth-child(3) h2 {
+        width: 30%;
+    }
+}
+@media (max-width:767px) {
+    .container div {
+        width: 94%;
+        margin: 3%;
+    }
+}
