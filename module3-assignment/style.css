@@ -1,0 +1,51 @@
+.heading-h2 {
+    margin: 10% 3%; 
+}
+#myNav {
+    padding: 20px;
+}
+#myList {
+    text-align: center;
+}
+#cardContainer {
+    margin: 3%;
+}
+#card1, #card2, #card3 {
+    background: rgb(90, 119, 143);
+    border: 2px rgb(103, 105, 128) solid;
+    color: #fff;
+    box-shadow: 0px 3px 10px 2px rgb(109, 117, 124);
+    padding: 0px;
+    margin: 0 auto;
+}
+.row h3 {
+    border-bottom: 2px  rgb(103, 105, 128) dotted;
+    background-color: rgba(38, 6, 59, 0.63);
+    padding: 20px;
+    letter-spacing: 7px;
+}
+.row p {
+    padding: 0px 15px
+}
+#top {
+    margin: 7px;
+    font-size: 19px;
+    color: rgb(69, 12, 143);
+}
+@media (max-width:767px) {
+    #myList li {
+        border-bottom: 2px rgb(170, 168, 168) solid;
+    }
+    #card1, #card2 {
+        margin: 1% auto;
+    }
+    #card3  {
+        margin: 3% auto;
+    }
+}
+
+@media (max-width:576px) {
+    #card1, #card2, #card3 {
+        margin: 5%;
+    }
+}
